@@ -1,0 +1,66 @@
+@media screen and (max-width: 900px) {
+    .todo-app {
+        max-width: 83%;
+    }
+
+    #input-box {
+        padding: 6px;
+        font-size: 0.85rem;
+    }
+
+    .add {
+        padding: 13px 40px;
+        font-size: 0.85rem;
+    }
+
+    ul li {
+        font-size: 0.95rem
+    }
+}
+
+@media screen and (max-width: 700px) {
+    #input-box {
+        padding: 4px;
+        font-size: 0.75rem;
+    }
+
+    .add {
+        padding: 10px 30px;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    
+    .todo-app {
+        width: 90%;
+    }
+    
+    .heading {
+        font-size: 2rem;
+    }
+
+    .fa-solid {
+        font-size: 2rem;
+        position: absolute;
+    }
+
+    .input {
+        margin-top: 1.5rem;
+    }
+
+    #input-box {
+        padding: 10px;
+        font-size: 1rem;
+    }
+
+    .add {
+        font-size: 0.95rem;
+        position: absolute;
+        right: 50px;
+    }
+
+    ul li {
+        font-size: 1.2rem;
+    }
+}
+
